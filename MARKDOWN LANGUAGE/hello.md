@@ -184,6 +184,11 @@ def add(num1,num2):
 | Name2 | email2 |
 
 <!-- Task Lists -->
+<!--
+Checked box has an x inside the square brackets
+non-checked boxes has a space inside the square brackets
+
+-->
 
 - [x] Task 1
 - [x] Task 2
