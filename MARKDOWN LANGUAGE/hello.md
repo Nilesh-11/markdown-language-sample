@@ -137,7 +137,17 @@ Nested list "Don't know"
 <!-- Images -->
 <!-- similar to links but we have to put an exclamation mark before square brackets -->
 
-<!-- ![Markdown Logo](https://markdown-here.com/img/icon256.png) -->
+<!-- ![Markdown Logo][def2]
+
+[def2]: https://markdown-here.com/img/icon256.png -->
+
+<!-- After ![markdown logo][def] there should be atleast 2 newline characters before adding "def:./Markdown-logo" or
+"def: https://markdown-here.com/img/icon256.png"
+-->
+
+![Markdown Logo][def]
+
+[def]: ./Markdown-Logo.png
 
 <!-- Github Markdown -->
 
@@ -193,3 +203,5 @@ non-checked boxes has a space inside the square brackets
 - [x] Task 1
 - [x] Task 2
 - [ ] Task 3
+
+> There are free online markdown to html converters
